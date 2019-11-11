@@ -53,3 +53,30 @@
 .ex-7-img:hover {
     filter: grayscale(.8) sepia(.4);
 }
+
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: sepia(.4) grayscale(.4);
+}
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 30px;
+    filter: sepia(.4) grayscale(.4);
+    transform: scale(1.5);
+}
+
+.ex-10-icon {
+    animation: antiorario 1s linear infinite;
+}
+
+@keyframes antiorario {
+    0% {transform: rotate(1turn);}
+}
